@@ -10,3 +10,10 @@
 | Ours    | 44.7 |**58.3**  | **4.4**  | 28.4 | 47.4  | **80.9** | 65.4 | **45.3**  | 41.6 | 57.9  | 34.1  | 10.8    | 17.9  | **47.2**  | 38.7  | 41.3  |
 
 [1] Zhou J, Wang J, Ma B, et al. Uni3D: Exploring Unified 3D Representation at Scale[C]//ICLR. 2024.
+
+**Table 2: The ablation experiment for learnable centroids.** Fixed centroids refer to the method where the Euclidean distance from each point to its assigned cluster center is directly computed, and the centroids are not updated afterward, making them highly influenced by the initial data distribution. In contrast, learnable centroids are adjusted during the training process, allowing them to better adapt to the point cloud data distribution and capture both the semantic and structural information of the point cloud data more effectively.
+| Method              | **Build** | **Car** | **Grou** | **Plants** | **AVG** |
+|---------------------|-----------|---------|----------|------------|---------|
+| Fixed Centroid      | 56.2      | 4.1     | 76.4     | 45.2       | 45.5    |
+| Learnable Centroid  | **58.3**  | **4.4** | **80.9** | **45.3**   | **47.2** |
+
