@@ -2,7 +2,7 @@
 **Figure 1：Effectiveness of Geometric-Aware Prototype.** The second row in the figure represents the prototype clustering method used in the EUMS, while the third row illustrates the use of geometric-aware prototypes for constructing hypergraphs to facilitate novel class inference. As shown in the figure, the geometric-aware prototypes more effectively capture the contours and local structures of target objects. This enables the model to better focus on foreground objects, enhancing its ability to distinguish them from the background.
 
 
-**Table1: Effectiveness of Geometric-Aware Prototype.**
+**Table 1: Comparison with Open-Vocabulary Method.** For the Open-vocabulary Method (UNI3D), the model is trained on the base classes in the SemanticPOSS dataset on Split 0, and new class inference is performed using the textual names of the new classes.
 | Method  | bike | **build** | **car** | cone | fence | **grou** | pers| plants | pole| rider | traf. | trashc. | trunk | Novel | Known | All   |
 |---------|------|-------|---------|----------|-------|------|----------|--------|----------|-------|-------|---------|-------|-------|-------|-------|
 | Full    | 46.9 | **85.9**  | **55.4** | 37.3 | 48.9  | **80.0** | 64.5 | **79.4**  | 35.8 | 59.4  | 31.9  | 7.8     | 25.2  | --    | 50.6  |       |
