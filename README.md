@@ -9,4 +9,4 @@
 | UNI3D[1]  | 43.9 | **30.4**  | **3.2**  | 35.2 | 45.6  | **68.4** | 62.8 | **32.4**  | 42.8 | 59.2  | 33.4  | 12.9    | 18.8  | **33.6**  | 39.4  | 37.6  |
 | Ours    | 44.7 |**58.3**  | **4.4**  | 28.4 | 47.4  | **80.9** | 65.4 | **45.3**  | 41.6 | 57.9  | 34.1  | 10.8    | 17.9  | **47.2**  | 38.7  | 41.3  |
 
-[1] Zhou J, Wang J, Ma B, et al. Uni3d: Exploring unified 3d representation at scale[J]. arXiv preprint arXiv:2310.06773, 2023.
+[1] Zhou J, Wang J, Ma B, et al. Uni3D: Exploring Unified 3D Representation at Scale[C]//ICLR. 2024.
